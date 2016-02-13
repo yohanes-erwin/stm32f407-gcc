@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Git\stm32f4-gcc\push-button\cmsis_lib\include -ID:\Git\stm32f4-gcc\push-button -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\push-button\cmsis_boot -ID:\Git\stm32f4-gcc\push-button\cmsis -ID:\Git\stm32f4-gcc\push-button\cmsis_lib">
+      <target file="stm32f4xx_rcc.o" lastModified="152d9147785">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="152d907ba06"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="152d914783b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="152d907b9fd"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="152d91477e1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="152d907b9f2"/>
+      </target>
+      <target file="main.o" lastModified="152d91476f6">
+         <source file="..\..\..\main.c" lastModified="152d914735d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="152d91476a0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="152d907b9f9"/>
+      </target>
+   </processor>
+</history>

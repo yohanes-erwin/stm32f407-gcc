@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=systick-timer.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\systick-timer -TC:\CooCox\CoIDE\configuration\ProgramData\systick-timer/arm-gcc-link.ld -g">
+      <target file="systick-timer.elf" lastModified="152d913d580">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152d913d15e"/>
+         <source file="..\obj\main.o" lastModified="152d913d1ae"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152d913d23f"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152d913d2ad"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152d913d31a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152d913d366"/>
+         <source file="..\obj\clock.o" lastModified="152d913d3a9"/>
+      </target>
+   </processor>
+</history>

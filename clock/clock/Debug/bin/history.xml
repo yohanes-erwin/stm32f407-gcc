@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=clock.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\clock -TC:\CooCox\CoIDE\configuration\ProgramData\clock/arm-gcc-link.ld -g">
+      <target file="clock.elf" lastModified="152d8c655d1">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152d8c6517b"/>
+         <source file="..\obj\main.o" lastModified="152d8c651c9"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152d8c6529c"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152d8c65367"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152d8c653b4"/>
+         <source file="..\obj\clock.o" lastModified="152d8c653f8"/>
+      </target>
+   </processor>
+</history>

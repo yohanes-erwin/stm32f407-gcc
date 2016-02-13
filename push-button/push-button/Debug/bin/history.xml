@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=push-button.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\push-button -TC:\CooCox\CoIDE\configuration\ProgramData\push-button/arm-gcc-link.ld -g">
+      <target file="push-button.elf" lastModified="152d9147a13">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152d91476a0"/>
+         <source file="..\obj\main.o" lastModified="152d91476f6"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152d9147785"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152d91477e1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152d914783b"/>
+      </target>
+   </processor>
+</history>

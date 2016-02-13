@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -ID:\Git\stm32f4-gcc\clock\cmsis_lib\include -ID:\Git\stm32f4-gcc\clock\cmsis_lib -ID:\Git -ID:\Git\stm32f4-gcc\clock -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\clock\cmsis_boot -ID:\Git\stm32f4-gcc\clock\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="152d8c6529c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14db2d78294"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="152d8c653b4">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14dc3e9e0a3"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="152d8c65367">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="14db2e12337"/>
+      </target>
+      <target file="clock.o" lastModified="152d8c653f8">
+         <source file="..\..\..\clock.c" lastModified="152d89d05ad"/>
+      </target>
+      <target file="main.o" lastModified="152d8c651c9">
+         <source file="..\..\..\main.c" lastModified="152d89862e5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="152d8c6517b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14db2d782a8"/>
+      </target>
+   </processor>
+</history>

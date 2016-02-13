@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=delay.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\delay -TC:\CooCox\CoIDE\configuration\ProgramData\delay/arm-gcc-link.ld -g">
+      <target file="delay.elf" lastModified="152d8f09c4d">
+         <source file="..\obj\delay.o" lastModified="152d8f097e4"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152d8f09816"/>
+         <source file="..\obj\main.o" lastModified="152d8f0985a"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152d8f098e9"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152d8f09968"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152d8f099df"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152d8f09a2b"/>
+         <source file="..\obj\clock.o" lastModified="152d8f09a70"/>
+      </target>
+   </processor>
+</history>

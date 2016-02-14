@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=tri-color-led.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\tri-color-led -TC:\CooCox\CoIDE\configuration\ProgramData\tri-color-led/arm-gcc-link.ld -g">
+      <target file="tri-color-led.elf" lastModified="152dd93ed94">
+         <source file="..\obj\delay.o" lastModified="152dd93e855"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152dd93e893"/>
+         <source file="..\obj\main.o" lastModified="152dd93e8e7"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152dd93e974"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152dd93e9dc"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152dd93ea4a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152dd93ea94"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="152dd93eb6d"/>
+         <source file="..\obj\clock.o" lastModified="152dd93ebb1"/>
+      </target>
+   </processor>
+</history>

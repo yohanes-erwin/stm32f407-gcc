@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=external-interrupt.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\external-interrupt -TC:\CooCox\CoIDE\configuration\ProgramData\external-interrupt/arm-gcc-link.ld -g">
+      <target file="external-interrupt.elf" lastModified="152dae74654">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="152dae74055"/>
+         <source file="..\obj\delay.o" lastModified="152dae740b9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152dae74123"/>
+         <source file="..\obj\main.o" lastModified="152dae741a0"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152dae7423a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152dae742a8"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152dae74327"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152dae7437e"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="152dae743e1"/>
+         <source file="..\obj\misc.o" lastModified="152dae74430"/>
+         <source file="..\obj\clock.o" lastModified="152dae74477"/>
+      </target>
+   </processor>
+</history>

@@ -11,8 +11,6 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -20,14 +18,6 @@
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/Git/stm32f4-gcc/systick-timer/main.c" title="main.c" tooltip="D:/Git/stm32f4-gcc/systick-timer/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/systick-timer/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="291" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="clock.h" partName="clock.h" path="D:/Git/stm32f4-gcc/systick-timer/clock.h" title="clock.h" tooltip="D:/Git/stm32f4-gcc/systick-timer/clock.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/systick-timer/clock.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="clock.c" partName="clock.c" path="D:/Git/stm32f4-gcc/systick-timer/clock.c" title="clock.c" tooltip="D:/Git/stm32f4-gcc/systick-timer/clock.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/systick-timer/clock.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -42,7 +32,7 @@
 <element path="/systick-timer/cmsis_lib/include"/>
 </expanded>
 <selection>
-<element path="/systick-timer/clock.c"/>
+<element path="/systick-timer/clock.h"/>
 </selection>
 </viewState>
 </view>
@@ -56,7 +46,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -148,7 +138,6 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/delay.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/clock.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/clock.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/delay.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/delay.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/delay/clock.h"/>
@@ -187,19 +176,13 @@
 </editor>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/systick-timer/clock.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/systick-timer/clock.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
 </editors>
-<item historyLabel="delay.h" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="delay.c" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="clock.h" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="clock.c" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
 <item historyLabel="clock.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -212,111 +195,119 @@
 <item historyLabel="main.c" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.h" index="5">
+<item historyLabel="delay.h" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="6">
+<item historyLabel="delay.c" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.h" index="7">
+<item historyLabel="clock.h" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.c" index="8">
+<item historyLabel="clock.c" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.h" index="9">
+<item historyLabel="clock.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.c" index="8">
+<item historyLabel="clock.c" index="7">
 <position info="not_deleted" x="519" y="0"/>
 </item>
-<item historyLabel="clock.h" index="9">
+<item historyLabel="clock.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="10">
+<item historyLabel="delay.c" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.h" index="11">
+<item historyLabel="delay.h" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="10">
+<item historyLabel="delay.c" index="9">
 <position info="not_deleted" x="104" y="0"/>
 </item>
-<item historyLabel="clock.h" index="9">
+<item historyLabel="clock.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.c" index="8">
+<item historyLabel="clock.c" index="7">
 <position info="not_deleted" x="519" y="0"/>
 </item>
-<item historyLabel="delay.c" index="10">
+<item historyLabel="delay.c" index="9">
 <position info="not_deleted" x="104" y="0"/>
 </item>
-<item historyLabel="main.c" index="12">
+<item historyLabel="main.c" index="11">
 <position info="not_deleted" x="330" y="0"/>
 </item>
-<item historyLabel="delay.h" index="11">
+<item historyLabel="delay.h" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="10">
+<item historyLabel="delay.c" index="9">
 <position info="not_deleted" x="104" y="0"/>
 </item>
-<item historyLabel="clock.h" index="9">
+<item historyLabel="clock.h" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.c" index="8">
+<item historyLabel="clock.c" index="7">
 <position info="not_deleted" x="519" y="0"/>
 </item>
-<item historyLabel="clock.h" index="13">
+<item historyLabel="clock.h" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="14">
+<item historyLabel="delay.c" index="13">
 <position info="not_deleted" x="104" y="0"/>
 </item>
-<item historyLabel="delay.h" index="15">
+<item historyLabel="delay.h" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="delay.c" index="14">
+<item historyLabel="delay.c" index="13">
 <position info="not_deleted" x="104" y="0"/>
 </item>
-<item historyLabel="main.c" index="16">
+<item historyLabel="main.c" index="15">
 <position info="not_deleted" x="330" y="0"/>
 </item>
-<item historyLabel="main.c" index="16">
+<item historyLabel="main.c" index="15">
 <position info="not_deleted" x="670" y="0"/>
 </item>
-<item historyLabel="main.c" index="16">
+<item historyLabel="main.c" index="15">
 <position info="not_deleted" x="604" y="0"/>
 </item>
-<item historyLabel="welcome" index="17"/>
-<item historyLabel="Repository" index="18"/>
-<item historyLabel="main.c" index="19">
+<item historyLabel="welcome" index="16"/>
+<item historyLabel="Repository" index="17"/>
+<item historyLabel="main.c" index="18">
 <position info="not_deleted" x="698" y="0"/>
 </item>
-<item historyLabel="welcome" index="20"/>
-<item historyLabel="Repository" index="21"/>
-<item historyLabel="welcome" index="20"/>
-<item historyLabel="Repository" index="21"/>
-<item historyLabel="main.c" index="22">
+<item historyLabel="welcome" index="19"/>
+<item historyLabel="Repository" index="20"/>
+<item historyLabel="welcome" index="19"/>
+<item historyLabel="Repository" index="20"/>
+<item historyLabel="main.c" index="21">
 <position info="not_deleted" x="1086" y="0"/>
 </item>
-<item historyLabel="welcome" index="23"/>
-<item historyLabel="Repository" index="24"/>
-<item historyLabel="welcome" index="23"/>
-<item historyLabel="main.c" index="25">
+<item historyLabel="welcome" index="22"/>
+<item historyLabel="Repository" index="23"/>
+<item historyLabel="welcome" index="22"/>
+<item historyLabel="main.c" index="24">
 <position info="not_deleted" x="208" y="0"/>
 </item>
-<item historyLabel="Configuration" index="26"/>
-<item historyLabel="main.c" index="25">
+<item historyLabel="Configuration" index="25"/>
+<item historyLabel="main.c" index="24">
 <position info="not_deleted" x="208" y="0"/>
 </item>
-<item historyLabel="clock.h" index="27">
+<item historyLabel="clock.h" index="26">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="clock.c" index="28">
+<item historyLabel="clock.c" index="27">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="25">
+<item historyLabel="main.c" index="24">
 <position info="not_deleted" x="208" y="0"/>
+</item>
+<item historyLabel="Configuration" index="28"/>
+<item historyLabel="main.c" index="24">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="Configuration" index="29"/>
+<item active="true" historyLabel="main.c" index="24">
+<position info="not_deleted" x="291" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -324,65 +315,5 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 </window>
-<mruList>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="usart-polling/usart.c">
-<persistable path="/usart-polling/usart.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.h" tooltip="usart-polling/usart.h">
-<persistable path="/usart-polling/usart.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.c" tooltip="usart-polling/delay.c">
-<persistable path="/usart-polling/delay.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.h" tooltip="usart-polling/delay.h">
-<persistable path="/usart-polling/delay.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clock.c" tooltip="usart-polling/clock.c">
-<persistable path="/usart-polling/clock.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clock.h" tooltip="usart-polling/clock.h">
-<persistable path="/usart-polling/clock.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="usart-polling/main.c">
-<persistable path="/usart-polling/main.c"/>
-</file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>
-<subPage/>
-</persistable>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.h" tooltip="usart_polling/delay.h">
-<persistable path="/usart_polling/delay.h"/>
-</file>
-</mruList>
+<mruList/>
 </workbench>

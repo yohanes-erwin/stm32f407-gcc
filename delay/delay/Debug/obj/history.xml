@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Git\stm32f4-gcc\delay\cmsis_boot -ID:\Git\stm32f4-gcc\delay\cmsis_lib -ID:\Git -ID:\Git\stm32f4-gcc\delay\cmsis_lib\include -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\delay -ID:\Git\stm32f4-gcc\delay\cmsis">
-      <target file="stm32f4xx_rcc.o" lastModified="152d8f098e9">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -ID:\Git\stm32f4-gcc\delay\cmsis_boot -ID:\Git\stm32f4-gcc\delay\cmsis_lib -ID:\Git -ID:\Git\stm32f4-gcc\delay\cmsis_lib\include -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\delay -ID:\Git\stm32f4-gcc\delay\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="152dae694b8">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14dc89815b5"/>
       </target>
-      <target file="delay.o" lastModified="152d8f097e4">
+      <target file="delay.o" lastModified="152dae693a8">
          <source file="..\..\..\delay.c" lastModified="152d8c152ca"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="152d8f09a2b">
+      <target file="system_stm32f4xx.o" lastModified="152dae695ed">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14dc89815c4"/>
       </target>
-      <target file="stm32f4xx_flash.o" lastModified="152d8f099df">
+      <target file="stm32f4xx_flash.o" lastModified="152dae69597">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="14dc8983ce4"/>
       </target>
-      <target file="stm32f4xx_gpio.o" lastModified="152d8f09968">
+      <target file="stm32f4xx_gpio.o" lastModified="152dae6951d">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14dc8982856"/>
       </target>
-      <target file="clock.o" lastModified="152d8f09a70">
+      <target file="clock.o" lastModified="152dae69635">
          <source file="..\..\..\clock.c" lastModified="152d89d05ad"/>
       </target>
-      <target file="main.o" lastModified="152d8f0985a">
+      <target file="main.o" lastModified="152dae69430">
          <source file="..\..\..\main.c" lastModified="152d8f0954b"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="152d8f09816">
+      <target file="startup_stm32f4xx.o" lastModified="152dae693e8">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14dc89815b5"/>
       </target>
    </processor>

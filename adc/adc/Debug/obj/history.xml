@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -ID:\Git\stm32f4-gcc\adc\cmsis -ID:\Git -ID:\Git\stm32f4-gcc\adc\cmsis_boot -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\adc -ID:\Git\stm32f4-gcc\usart-polling -ID:\Git\stm32f4-gcc\adc\cmsis_lib\include -ID:\Git\stm32f4-gcc\adc\cmsis_lib">
+      <target file="syscalls.o" lastModified="152dae57fb4">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14e9c46d59b"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="152dae57ea4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14d8b0e7fe7"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="152dae57e3a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14d8b0ea199"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="152dae57f20">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="14e9c04e2be"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="152dae57f6e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14d8b0e8009"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="152dae57caf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14d8b0e7fff"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="152dae57c7b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14e9c3eee44"/>
+      </target>
+      <target file="main.o" lastModified="152dae57d0f">
+         <source file="..\..\..\main.c" lastModified="152da8f1a27"/>
+      </target>
+      <target file="clock.o" lastModified="152dae57fff">
+         <source file="..\..\..\..\usart-polling\clock.c" lastModified="152d89d05ad"/>
+      </target>
+      <target file="usart.o" lastModified="152dae58052">
+         <source file="..\..\..\usart.c" lastModified="152d8bfd837"/>
+      </target>
+      <target file="delay.o" lastModified="152dae57c01">
+         <source file="..\..\..\..\usart-polling\delay.c" lastModified="152d8bf91af"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="152dae57db6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14d8b0e8023"/>
+      </target>
+   </processor>
+</history>

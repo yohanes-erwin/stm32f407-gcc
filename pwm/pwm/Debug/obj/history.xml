@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -ID:\Git\stm32f4-gcc\pwm\cmsis_lib -ID:\Git -ID:\Git\stm32f4-gcc\pwm -ID:\Git\stm32f4-gcc\pwm\cmsis -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\pwm\cmsis_boot -ID:\Git\stm32f4-gcc\pwm\cmsis_lib\include">
+      <target file="stm32f4xx_gpio.o" lastModified="152dd804b0b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="152dad268cf"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="152dd804baf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="152dad2b1b9"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="152dd804ce8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="152dad254b6"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="152dd804bfe">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="152dad254c1"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="152dd804995">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="152dad254bd"/>
+      </target>
+      <target file="main.o" lastModified="152dd804a12">
+         <source file="..\..\..\main.c" lastModified="152dadf6d13"/>
+      </target>
+      <target file="clock.o" lastModified="152dd804d36">
+         <source file="..\..\..\clock.c" lastModified="152d89d05ad"/>
+      </target>
+      <target file="delay.o" lastModified="152dd804963">
+         <source file="..\..\..\delay.c" lastModified="152d8bf91af"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="152dd804aaf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="152dad254ca"/>
+      </target>
+   </processor>
+</history>

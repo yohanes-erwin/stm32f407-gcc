@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Git\stm32f4-gcc\usart-polling\cmsis_boot -ID:\Git -ID:\Git\stm32f4-gcc\usart-polling\cmsis_lib\include -ID:\Git\stm32f4-gcc\usart-polling\cmsis_lib -ID:\Git\stm32f4-gcc\usart-polling\cmsis -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\usart-polling">
-      <target file="stm32f4xx_gpio.o" lastModified="152d912af12">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -ID:\Git\stm32f4-gcc\usart-polling\cmsis_boot -ID:\Git -ID:\Git\stm32f4-gcc\usart-polling\cmsis_lib\include -ID:\Git\stm32f4-gcc\usart-polling\cmsis_lib -ID:\Git\stm32f4-gcc\usart-polling\cmsis -ID:\Git\stm32f4-gcc -ID:\Git\stm32f4-gcc\usart-polling">
+      <target file="stm32f4xx_gpio.o" lastModified="152dae8f77b">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="152d9104efa"/>
       </target>
-      <target file="stm32f4xx_flash.o" lastModified="152d912af92">
+      <target file="stm32f4xx_flash.o" lastModified="152dae8f7f9">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="152d9107877"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="152d912afde">
+      <target file="system_stm32f4xx.o" lastModified="152dae8f851">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="152d9104f06"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="152d912adb6">
+      <target file="startup_stm32f4xx.o" lastModified="152dae8f5a3">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="152d9104eff"/>
       </target>
-      <target file="stm32f4xx_usart.o" lastModified="152d912ad84">
+      <target file="stm32f4xx_usart.o" lastModified="152dae8f56c">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="152d9108abb"/>
       </target>
-      <target file="main.o" lastModified="152d912adfd">
+      <target file="main.o" lastModified="152dae8f5ed">
          <source file="..\..\..\main.c" lastModified="152d912aaa1"/>
       </target>
-      <target file="clock.o" lastModified="152d912b021">
+      <target file="clock.o" lastModified="152dae8f89a">
          <source file="..\..\..\clock.c" lastModified="152d89d05ad"/>
       </target>
-      <target file="usart.o" lastModified="152d912b06a">
+      <target file="usart.o" lastModified="152dae8f8ea">
          <source file="..\..\..\usart.c" lastModified="152d8bfd837"/>
       </target>
-      <target file="delay.o" lastModified="152d912ad0a">
+      <target file="delay.o" lastModified="152dae8f4e9">
          <source file="..\..\..\delay.c" lastModified="152d8bf91af"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="152d912ae8f">
+      <target file="stm32f4xx_rcc.o" lastModified="152dae8f6f6">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="152d9104f0e"/>
       </target>
    </processor>

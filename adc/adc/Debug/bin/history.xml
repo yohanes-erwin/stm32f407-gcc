@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=adc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\adc -TC:\CooCox\CoIDE\configuration\ProgramData\adc/arm-gcc-link.ld -g">
+      <target file="adc.elf" lastModified="152dae5824c">
+         <source file="..\obj\delay.o" lastModified="152dae57c01"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="152dae57c7b"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152dae57caf"/>
+         <source file="..\obj\main.o" lastModified="152dae57d0f"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152dae57db6"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="152dae57e3a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152dae57ea4"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152dae57f20"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152dae57f6e"/>
+         <source file="..\obj\syscalls.o" lastModified="152dae57fb4"/>
+         <source file="..\obj\clock.o" lastModified="152dae57fff"/>
+         <source file="..\obj\usart.o" lastModified="152dae58052"/>
+      </target>
+   </processor>
+</history>

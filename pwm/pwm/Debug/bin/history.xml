@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=pwm.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\pwm -TC:\CooCox\CoIDE\configuration\ProgramData\pwm/arm-gcc-link.ld -g">
+      <target file="pwm.elf" lastModified="152dd804fd6">
+         <source file="..\obj\delay.o" lastModified="152dd804963"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="152dd804995"/>
+         <source file="..\obj\main.o" lastModified="152dd804a12"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="152dd804aaf"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="152dd804b0b"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="152dd804baf"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="152dd804bfe"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="152dd804ce8"/>
+         <source file="..\obj\clock.o" lastModified="152dd804d36"/>
+      </target>
+   </processor>
+</history>

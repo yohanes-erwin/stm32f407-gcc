@@ -57,7 +57,7 @@ void TIM_INT_Init()
 
 	// TIM2 initialization for overflow every 500ms
 	// Update Event (Hz) = timer_clock / ((TIM_Prescaler + 1) * (TIM_Period + 1))
-	// Update Event (Hz) = 84MHz / ((4199 + 1) * (9999 + 1)) = 0.5 Hz
+	// Update Event (Hz) = 84MHz / ((4199 + 1) * (9999 + 1)) = 2Hz (0.5s)
 	TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStruct;
 	TIM_TimeBaseInitStruct.TIM_Prescaler = 4199;
 	TIM_TimeBaseInitStruct.TIM_Period = 9999;

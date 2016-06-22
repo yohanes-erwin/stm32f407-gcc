@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=freertos-led.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\freertos-led -TC:\CooCox\CoIDE\configuration\ProgramData\freertos-led/arm-gcc-link.ld -g">
+      <target file="freertos-led.elf" lastModified="1541952bd16">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1541952b491"/>
+         <source file="..\obj\main.o" lastModified="1541952b532"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1541952b5c4"/>
+         <source file="..\obj\timers.o" lastModified="1541952b642"/>
+         <source file="..\obj\tasks.o" lastModified="1541952b750"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1541952b7c5"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="1541952b841"/>
+         <source file="..\obj\list.o" lastModified="1541952b893"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1541952b8ee"/>
+         <source file="..\obj\port.o" lastModified="1541952b93f"/>
+         <source file="..\obj\queue.o" lastModified="1541952b9dc"/>
+         <source file="..\obj\croutine.o" lastModified="1541952ba1a"/>
+         <source file="..\obj\event_groups.o" lastModified="1541952ba82"/>
+         <source file="..\obj\heap_1.o" lastModified="1541952bad0"/>
+         <source file="..\obj\clock.o" lastModified="1541952bb2a"/>
+      </target>
+   </processor>
+</history>

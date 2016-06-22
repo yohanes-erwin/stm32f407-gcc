@@ -1,0 +1,1028 @@
+Archive member included because of file (symbol)
+
+c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memcpy.o)
+                              ..\obj\queue.o (memcpy)
+c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+                              ..\obj\tasks.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+xQueueRegistry      0x40              ..\obj\queue.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .data          0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x28 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x154 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x5c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x3c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x38 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text          0x00000000        0x0 ..\obj\timers.o
+ .data          0x00000000        0x0 ..\obj\timers.o
+ .text.xTimerCreate
+                0x00000000       0x78 ..\obj\timers.o
+ .text.pcTimerGetTimerName
+                0x00000000       0x38 ..\obj\timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x48 ..\obj\timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x40 ..\obj\timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x3c ..\obj\timers.o
+ .text          0x00000000        0x0 ..\obj\tasks.o
+ .data          0x00000000        0x0 ..\obj\tasks.o
+ .text.vTaskDelete
+                0x00000000      0x104 ..\obj\tasks.o
+ .text.vTaskDelayUntil
+                0x00000000      0x11c ..\obj\tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x34 ..\obj\tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x58 ..\obj\tasks.o
+ .text.vTaskPrioritySet
+                0x00000000      0x15c ..\obj\tasks.o
+ .text.vTaskSuspend
+                0x00000000      0x110 ..\obj\tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x74 ..\obj\tasks.o
+ .text.vTaskResume
+                0x00000000       0xbc ..\obj\tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xe4 ..\obj\tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x2c ..\obj\tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x24 ..\obj\tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x18 ..\obj\tasks.o
+ .text.uxTaskGetSystemState
+                0x00000000       0xf8 ..\obj\tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0xc8 ..\obj\tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0xd0 ..\obj\tasks.o
+ .text.uxTaskGetTaskNumber
+                0x00000000       0x2c ..\obj\tasks.o
+ .text.vTaskSetTaskNumber
+                0x00000000       0x24 ..\obj\tasks.o
+ .text.prvListTaskWithinSingleList
+                0x00000000      0x118 ..\obj\tasks.o
+ .text.prvTaskCheckFreeStackSpace
+                0x00000000       0x38 ..\obj\tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x20 ..\obj\tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x30 ..\obj\tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0xe8 ..\obj\tasks.o
+ .text.xTaskNotifyWait
+                0x00000000      0x10c ..\obj\tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x144 ..\obj\tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x184 ..\obj\tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000      0x114 ..\obj\tasks.o
+ .text.xTaskNotifyStateClear
+                0x00000000       0x50 ..\obj\tasks.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x120 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x34 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x34 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x34 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_PinAFConfig
+                0x00000000       0x90 ..\obj\stm32f4xx_gpio.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_flash.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_flash.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_PrefetchBufferCmd
+                0x00000000       0x38 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheCmd
+                0x00000000       0x38 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_DataCacheCmd
+                0x00000000       0x38 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheReset
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_DataCacheReset
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_Unlock
+                0x00000000       0x2c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_Lock
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_EraseSector
+                0x00000000       0xc0 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_EraseAllSectors
+                0x00000000       0xa0 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ProgramDoubleWord
+                0x00000000       0x70 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ProgramWord
+                0x00000000       0x68 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x00000000       0x6c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ProgramByte
+                0x00000000       0x68 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_Unlock
+                0x00000000       0x30 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_Lock
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_WRPConfig
+                0x00000000       0x58 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_RDPConfig
+                0x00000000       0x2c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_UserConfig
+                0x00000000       0x58 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_BORConfig
+                0x00000000       0x38 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_Launch
+                0x00000000       0x30 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_GetWRP
+                0x00000000       0x18 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x30 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_OB_GetBOR
+                0x00000000       0x20 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ITConfig
+                0x00000000       0x3c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_GetFlagStatus
+                0x00000000       0x34 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_ClearFlag
+                0x00000000       0x1c ..\obj\stm32f4xx_flash.o
+ .text.FLASH_GetStatus
+                0x00000000       0x68 ..\obj\stm32f4xx_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x30 ..\obj\stm32f4xx_flash.o
+ .text          0x00000000        0x0 ..\obj\list.o
+ .data          0x00000000        0x0 ..\obj\list.o
+ .bss           0x00000000        0x0 ..\obj\list.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemInit
+                0x00000000       0x68 ..\obj\system_stm32f4xx.o
+ .text.SetSysClock
+                0x00000000       0xf4 ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\port.o
+ .rodata        0x00000000        0x4 ..\obj\port.o
+ .text.vPortEndScheduler
+                0x00000000       0x34 ..\obj\port.o
+ .text          0x00000000        0x0 ..\obj\queue.o
+ .data          0x00000000        0x0 ..\obj\queue.o
+ .bss           0x00000000        0x0 ..\obj\queue.o
+ .text.xQueueCreateMutex
+                0x00000000       0x84 ..\obj\queue.o
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x68 ..\obj\queue.o
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x70 ..\obj\queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x7c ..\obj\queue.o
+ .text.xQueueGiveFromISR
+                0x00000000      0x100 ..\obj\queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0xe8 ..\obj\queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0xcc ..\obj\queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x3c ..\obj\queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x44 ..\obj\queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x38 ..\obj\queue.o
+ .text.vQueueDelete
+                0x00000000       0x38 ..\obj\queue.o
+ .text.uxQueueGetQueueNumber
+                0x00000000       0x18 ..\obj\queue.o
+ .text.vQueueSetQueueNumber
+                0x00000000       0x1c ..\obj\queue.o
+ .text.ucQueueGetQueueType
+                0x00000000       0x1c ..\obj\queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x44 ..\obj\queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x48 ..\obj\queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x44 ..\obj\queue.o
+ .text          0x00000000        0x0 ..\obj\croutine.o
+ .data          0x00000000        0x0 ..\obj\croutine.o
+ .bss           0x00000000        0x0 ..\obj\croutine.o
+ .debug_info    0x00000000       0x6e ..\obj\croutine.o
+ .debug_abbrev  0x00000000       0x24 ..\obj\croutine.o
+ .debug_aranges
+                0x00000000       0x18 ..\obj\croutine.o
+ .debug_line    0x00000000       0x1d ..\obj\croutine.o
+ .debug_str     0x00000000      0x167 ..\obj\croutine.o
+ .comment       0x00000000       0x71 ..\obj\croutine.o
+ .ARM.attributes
+                0x00000000       0x37 ..\obj\croutine.o
+ .text          0x00000000        0x0 ..\obj\event_groups.o
+ .data          0x00000000        0x0 ..\obj\event_groups.o
+ .bss           0x00000000        0x0 ..\obj\event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x30 ..\obj\event_groups.o
+ .text.xEventGroupSync
+                0x00000000      0x154 ..\obj\event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000      0x194 ..\obj\event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x6c ..\obj\event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x48 ..\obj\event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000      0x114 ..\obj\event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x60 ..\obj\event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000       0x18 ..\obj\event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000       0x18 ..\obj\event_groups.o
+ .text.prvTestWaitCondition
+                0x00000000       0x44 ..\obj\event_groups.o
+ .text.uxEventGroupGetNumber
+                0x00000000       0x2c ..\obj\event_groups.o
+ .debug_info    0x00000000      0x8bc ..\obj\event_groups.o
+ .debug_abbrev  0x00000000      0x1e1 ..\obj\event_groups.o
+ .debug_aranges
+                0x00000000       0x70 ..\obj\event_groups.o
+ .debug_ranges  0x00000000       0x60 ..\obj\event_groups.o
+ .debug_line    0x00000000      0x433 ..\obj\event_groups.o
+ .debug_str     0x00000000      0x56b ..\obj\event_groups.o
+ .comment       0x00000000       0x71 ..\obj\event_groups.o
+ .debug_frame   0x00000000      0x1a8 ..\obj\event_groups.o
+ .ARM.attributes
+                0x00000000       0x37 ..\obj\event_groups.o
+ .text          0x00000000        0x0 ..\obj\heap_1.o
+ .data          0x00000000        0x0 ..\obj\heap_1.o
+ .text.vPortInitialiseBlocks
+                0x00000000       0x18 ..\obj\heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x20 ..\obj\heap_1.o
+ .text          0x00000000        0x0 ..\obj\clock.o
+ .data          0x00000000        0x0 ..\obj\clock.o
+ .bss           0x00000000        0x0 ..\obj\clock.o
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000     0x2f2c
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.Default_Reset_Handler
+                0x08000188       0x68 ..\obj\startup_stm32f4xx.o
+                0x08000188                Default_Reset_Handler
+                0x08000188                Reset_Handler
+ .text.Default_Handler
+                0x080001f0        0x8 ..\obj\startup_stm32f4xx.o
+                0x080001f0                RTC_Alarm_IRQHandler
+                0x080001f0                HASH_RNG_IRQHandler
+                0x080001f0                EXTI2_IRQHandler
+                0x080001f0                TIM8_CC_IRQHandler
+                0x080001f0                DebugMon_Handler
+                0x080001f0                TIM1_CC_IRQHandler
+                0x080001f0                DMA2_Stream5_IRQHandler
+                0x080001f0                HardFault_Handler
+                0x080001f0                DMA1_Stream5_IRQHandler
+                0x080001f0                PVD_IRQHandler
+                0x080001f0                SDIO_IRQHandler
+                0x080001f0                TAMP_STAMP_IRQHandler
+                0x080001f0                NMI_Handler
+                0x080001f0                CAN2_RX1_IRQHandler
+                0x080001f0                EXTI3_IRQHandler
+                0x080001f0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001f0                TIM1_UP_TIM10_IRQHandler
+                0x080001f0                TIM8_UP_TIM13_IRQHandler
+                0x080001f0                I2C3_ER_IRQHandler
+                0x080001f0                EXTI0_IRQHandler
+                0x080001f0                I2C2_EV_IRQHandler
+                0x080001f0                DMA1_Stream2_IRQHandler
+                0x080001f0                CAN1_RX0_IRQHandler
+                0x080001f0                FPU_IRQHandler
+                0x080001f0                OTG_HS_WKUP_IRQHandler
+                0x080001f0                UsageFault_Handler
+                0x080001f0                CAN2_SCE_IRQHandler
+                0x080001f0                DMA2_Stream2_IRQHandler
+                0x080001f0                SPI1_IRQHandler
+                0x080001f0                TIM6_DAC_IRQHandler
+                0x080001f0                TIM1_BRK_TIM9_IRQHandler
+                0x080001f0                DCMI_IRQHandler
+                0x080001f0                CAN2_RX0_IRQHandler
+                0x080001f0                DMA2_Stream3_IRQHandler
+                0x080001f0                USART6_IRQHandler
+                0x080001f0                USART3_IRQHandler
+                0x080001f0                CRYP_IRQHandler
+                0x080001f0                CAN1_RX1_IRQHandler
+                0x080001f0                UART5_IRQHandler
+                0x080001f0                DMA2_Stream0_IRQHandler
+                0x080001f0                TIM4_IRQHandler
+                0x080001f0                I2C1_EV_IRQHandler
+                0x080001f0                DMA1_Stream6_IRQHandler
+                0x080001f0                DMA1_Stream1_IRQHandler
+                0x080001f0                UART4_IRQHandler
+                0x080001f0                TIM3_IRQHandler
+                0x080001f0                RCC_IRQHandler
+                0x080001f0                TIM8_BRK_TIM12_IRQHandler
+                0x080001f0                EXTI15_10_IRQHandler
+                0x080001f0                ADC_IRQHandler
+                0x080001f0                DMA1_Stream7_IRQHandler
+                0x080001f0                TIM7_IRQHandler
+                0x080001f0                CAN2_TX_IRQHandler
+                0x080001f0                TIM5_IRQHandler
+                0x080001f0                DMA2_Stream7_IRQHandler
+                0x080001f0                I2C3_EV_IRQHandler
+                0x080001f0                EXTI9_5_IRQHandler
+                0x080001f0                RTC_WKUP_IRQHandler
+                0x080001f0                ETH_WKUP_IRQHandler
+                0x080001f0                SPI2_IRQHandler
+                0x080001f0                OTG_HS_EP1_IN_IRQHandler
+                0x080001f0                MemManage_Handler
+                0x080001f0                DMA1_Stream0_IRQHandler
+                0x080001f0                CAN1_TX_IRQHandler
+                0x080001f0                EXTI4_IRQHandler
+                0x080001f0                FSMC_IRQHandler
+                0x080001f0                ETH_IRQHandler
+                0x080001f0                OTG_HS_EP1_OUT_IRQHandler
+                0x080001f0                WWDG_IRQHandler
+                0x080001f0                TIM2_IRQHandler
+                0x080001f0                OTG_FS_WKUP_IRQHandler
+                0x080001f0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001f0                OTG_HS_IRQHandler
+                0x080001f0                EXTI1_IRQHandler
+                0x080001f0                USART2_IRQHandler
+                0x080001f0                I2C2_ER_IRQHandler
+                0x080001f0                DMA2_Stream1_IRQHandler
+                0x080001f0                CAN1_SCE_IRQHandler
+                0x080001f0                FLASH_IRQHandler
+                0x080001f0                DMA2_Stream4_IRQHandler
+                0x080001f0                BusFault_Handler
+                0x080001f0                USART1_IRQHandler
+                0x080001f0                OTG_FS_IRQHandler
+                0x080001f0                SPI3_IRQHandler
+                0x080001f0                DMA1_Stream4_IRQHandler
+                0x080001f0                I2C1_ER_IRQHandler
+                0x080001f0                DMA2_Stream6_IRQHandler
+                0x080001f0                DMA1_Stream3_IRQHandler
+ .text.main     0x080001f8       0xb0 ..\obj\main.o
+                0x080001f8                main
+ .text.ledInit  0x080002a8       0x38 ..\obj\main.o
+                0x080002a8                ledInit
+ .text.vTaskLedRed
+                0x080002e0       0x20 ..\obj\main.o
+                0x080002e0                vTaskLedRed
+ .text.vTaskLedOrange
+                0x08000300       0x20 ..\obj\main.o
+                0x08000300                vTaskLedOrange
+ .text.vTaskLedGreen
+                0x08000320       0x20 ..\obj\main.o
+                0x08000320                vTaskLedGreen
+ .text.vTaskLedBlue
+                0x08000340       0x20 ..\obj\main.o
+                0x08000340                vTaskLedBlue
+ .text.RCC_DeInit
+                0x08000360       0x50 ..\obj\stm32f4xx_rcc.o
+                0x08000360                RCC_DeInit
+ .text.RCC_HSEConfig
+                0x080003b0       0x24 ..\obj\stm32f4xx_rcc.o
+                0x080003b0                RCC_HSEConfig
+ .text.RCC_WaitForHSEStartUp
+                0x080003d4       0x50 ..\obj\stm32f4xx_rcc.o
+                0x080003d4                RCC_WaitForHSEStartUp
+ .text.RCC_PLLConfig
+                0x08000424       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08000424                RCC_PLLConfig
+ .text.RCC_PLLCmd
+                0x08000460       0x20 ..\obj\stm32f4xx_rcc.o
+                0x08000460                RCC_PLLCmd
+ .text.RCC_SYSCLKConfig
+                0x08000480       0x38 ..\obj\stm32f4xx_rcc.o
+                0x08000480                RCC_SYSCLKConfig
+ .text.RCC_HCLKConfig
+                0x080004b8       0x38 ..\obj\stm32f4xx_rcc.o
+                0x080004b8                RCC_HCLKConfig
+ .text.RCC_PCLK1Config
+                0x080004f0       0x38 ..\obj\stm32f4xx_rcc.o
+                0x080004f0                RCC_PCLK1Config
+ .text.RCC_PCLK2Config
+                0x08000528       0x38 ..\obj\stm32f4xx_rcc.o
+                0x08000528                RCC_PCLK2Config
+ .text.RCC_AHB1PeriphClockCmd
+                0x08000560       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08000560                RCC_AHB1PeriphClockCmd
+ .text.RCC_GetFlagStatus
+                0x0800059c       0x74 ..\obj\stm32f4xx_rcc.o
+                0x0800059c                RCC_GetFlagStatus
+ .text.xTimerCreateTimerTask
+                0x08000610       0x68 ..\obj\timers.o
+                0x08000610                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x08000678       0xa4 ..\obj\timers.o
+                0x08000678                xTimerGenericCommand
+ .text.prvProcessExpiredTimer
+                0x0800071c       0x80 ..\obj\timers.o
+ .text.prvTimerTask
+                0x0800079c       0x24 ..\obj\timers.o
+ .text.prvProcessTimerOrBlockTask
+                0x080007c0       0x9c ..\obj\timers.o
+ .text.prvGetNextExpireTime
+                0x0800085c       0x48 ..\obj\timers.o
+ .text.prvSampleTimeNow
+                0x080008a4       0x40 ..\obj\timers.o
+ .text.prvInsertTimerInActiveList
+                0x080008e4       0x84 ..\obj\timers.o
+ .text.prvProcessReceivedCommands
+                0x08000968      0x12c ..\obj\timers.o
+ .text.prvSwitchTimerLists
+                0x08000a94       0xc0 ..\obj\timers.o
+ .text.prvCheckForValidListAndQueue
+                0x08000b54       0x8c ..\obj\timers.o
+ .text.xTaskGenericCreate
+                0x08000be0      0x1a4 ..\obj\tasks.o
+                0x08000be0                xTaskGenericCreate
+ .text.vTaskDelay
+                0x08000d84       0xa4 ..\obj\tasks.o
+                0x08000d84                vTaskDelay
+ .text.vTaskStartScheduler
+                0x08000e28       0x98 ..\obj\tasks.o
+                0x08000e28                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x08000ec0       0x1c ..\obj\tasks.o
+                0x08000ec0                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x08000edc      0x12c ..\obj\tasks.o
+                0x08000edc                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x08001008       0x20 ..\obj\tasks.o
+                0x08001008                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x08001028      0x180 ..\obj\tasks.o
+                0x08001028                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x080011a8       0xb4 ..\obj\tasks.o
+                0x080011a8                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0800125c       0x9c ..\obj\tasks.o
+                0x0800125c                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x080012f8       0x9c ..\obj\tasks.o
+                0x080012f8                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x08001394       0xc8 ..\obj\tasks.o
+                0x08001394                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x0800145c       0x44 ..\obj\tasks.o
+                0x0800145c                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x080014a0       0xbc ..\obj\tasks.o
+                0x080014a0                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0800155c       0x18 ..\obj\tasks.o
+                0x0800155c                vTaskMissedYield
+ .text.prvIdleTask
+                0x08001574       0x30 ..\obj\tasks.o
+ .text.prvInitialiseTCBVariables
+                0x080015a4       0xa4 ..\obj\tasks.o
+ .text.prvInitialiseTaskLists
+                0x08001648       0x7c ..\obj\tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x080016c4       0x74 ..\obj\tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x08001738       0x6c ..\obj\tasks.o
+ .text.prvAllocateTCBAndStack
+                0x080017a4       0x70 ..\obj\tasks.o
+ .text.prvDeleteTCB
+                0x08001814       0x20 ..\obj\tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x08001834       0x48 ..\obj\tasks.o
+ .text.xTaskGetSchedulerState
+                0x0800187c       0x3c ..\obj\tasks.o
+                0x0800187c                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x080018b8       0xf0 ..\obj\tasks.o
+                0x080018b8                vTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x080019a8      0x10c ..\obj\tasks.o
+                0x080019a8                xTaskPriorityDisinherit
+ .text.pvTaskIncrementMutexHeldCount
+                0x08001ab4       0x28 ..\obj\tasks.o
+                0x08001ab4                pvTaskIncrementMutexHeldCount
+ .text.GPIO_Init
+                0x08001adc      0x11c ..\obj\stm32f4xx_gpio.o
+                0x08001adc                GPIO_Init
+ .text.GPIO_ToggleBits
+                0x08001bf8       0x24 ..\obj\stm32f4xx_gpio.o
+                0x08001bf8                GPIO_ToggleBits
+ .text.FLASH_SetLatency
+                0x08001c1c       0x20 ..\obj\stm32f4xx_flash.o
+                0x08001c1c                FLASH_SetLatency
+ .text.vListInitialise
+                0x08001c3c       0x40 ..\obj\list.o
+                0x08001c3c                vListInitialise
+ .text.vListInitialiseItem
+                0x08001c7c       0x18 ..\obj\list.o
+                0x08001c7c                vListInitialiseItem
+ .text.vListInsertEnd
+                0x08001c94       0x48 ..\obj\list.o
+                0x08001c94                vListInsertEnd
+ .text.vListInsert
+                0x08001cdc       0x70 ..\obj\list.o
+                0x08001cdc                vListInsert
+ .text.uxListRemove
+                0x08001d4c       0x54 ..\obj\list.o
+                0x08001d4c                uxListRemove
+ .text.SystemCoreClockUpdate
+                0x08001da0       0xf8 ..\obj\system_stm32f4xx.o
+                0x08001da0                SystemCoreClockUpdate
+ .text.pxPortInitialiseStack
+                0x08001e98       0x64 ..\obj\port.o
+                0x08001e98                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x08001efc       0x3c ..\obj\port.o
+ .text.SVC_Handler
+                0x08001f38       0x20 ..\obj\port.o
+                0x08001f38                SVC_Handler
+ .text.prvPortStartFirstTask
+                0x08001f58       0x20 ..\obj\port.o
+ .text.xPortStartScheduler
+                0x08001f78      0x118 ..\obj\port.o
+                0x08001f78                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x08002090       0x5c ..\obj\port.o
+                0x08002090                vPortEnterCritical
+ .text.vPortExitCritical
+                0x080020ec       0x4c ..\obj\port.o
+                0x080020ec                vPortExitCritical
+ .text.PendSV_Handler
+                0x08002138       0x60 ..\obj\port.o
+                0x08002138                PendSV_Handler
+ .text.SysTick_Handler
+                0x08002198       0x44 ..\obj\port.o
+                0x08002198                SysTick_Handler
+ .text.vPortSetupTimerInterrupt
+                0x080021dc       0x24 ..\obj\port.o
+                0x080021dc                vPortSetupTimerInterrupt
+ .text.vPortEnableVFP
+                0x08002200       0x14 ..\obj\port.o
+ .text.vPortValidateInterruptPriority
+                0x08002214       0x78 ..\obj\port.o
+                0x08002214                vPortValidateInterruptPriority
+ .text.xQueueGenericReset
+                0x0800228c       0xd0 ..\obj\queue.o
+                0x0800228c                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0800235c       0xb4 ..\obj\queue.o
+                0x0800235c                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x08002410      0x1ec ..\obj\queue.o
+                0x08002410                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x080025fc      0x118 ..\obj\queue.o
+                0x080025fc                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x08002714      0x20c ..\obj\queue.o
+                0x08002714                xQueueGenericReceive
+ .text.prvCopyDataToQueue
+                0x08002920       0xdc ..\obj\queue.o
+ .text.prvCopyDataFromQueue
+                0x080029fc       0x4c ..\obj\queue.o
+ .text.prvUnlockQueue
+                0x08002a48       0x98 ..\obj\queue.o
+ .text.prvIsQueueEmpty
+                0x08002ae0       0x2c ..\obj\queue.o
+ .text.prvIsQueueFull
+                0x08002b0c       0x30 ..\obj\queue.o
+ .text.vQueueAddToRegistry
+                0x08002b3c       0x50 ..\obj\queue.o
+                0x08002b3c                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x08002b8c       0x5c ..\obj\queue.o
+                0x08002b8c                vQueueWaitForMessageRestricted
+ .text.pvPortMalloc
+                0x08002be8       0x8c ..\obj\heap_1.o
+                0x08002be8                pvPortMalloc
+ .text.vPortFree
+                0x08002c74       0x2c ..\obj\heap_1.o
+                0x08002c74                vPortFree
+ .text.CLOCK_SetClockTo168MHz
+                0x08002ca0       0x78 ..\obj\clock.o
+                0x08002ca0                CLOCK_SetClockTo168MHz
+ .text          0x08002d18      0x134 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memcpy.o)
+                0x08002d18                memcpy
+ .text.memset   0x08002e4c       0x9c c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+                0x08002e4c                memset
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x08002ee8       0x2c ..\obj\main.o
+ .rodata        0x08002f14       0x10 ..\obj\timers.o
+ .rodata        0x08002f24        0x8 ..\obj\tasks.o
+ *(.eh_fram e*)
+
+.glue_7         0x08002f2c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08002f2c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08002f2c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08002f2c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08002f2c        0x0
+ .iplt          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.rel.dyn        0x08002f2c        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08002f2c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08002f2c                __exidx_end = .
+                0x08002f2c                __etext = .
+                0x08002f2c                _sidata = __etext
+
+.data           0x20000000       0x18 load address 0x08002f2c
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x14 ..\obj\system_stm32f4xx.o
+                0x20000000                SystemCoreClock
+                0x20000004                AHBPrescTable
+ .data          0x20000014        0x4 ..\obj\port.o
+                0x20000018                . = ALIGN (0x4)
+                0x20000018                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000018                PROVIDE (__preinit_array_end, .)
+                0x20000018                . = ALIGN (0x4)
+                0x20000018                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000018                PROVIDE (__init_array_end, .)
+                0x20000018                . = ALIGN (0x4)
+                0x20000018                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x20000018                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000018                . = ALIGN (0x4)
+                0x20000018                __data_end__ = .
+                0x20000018                _edata = __data_end__
+
+.igot.plt       0x20000018        0x0 load address 0x08002f44
+ .igot.plt      0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+
+.bss            0x20000018    0x12d88 load address 0x08002f44
+                0x20000018                . = ALIGN (0x4)
+                0x20000018                __bss_start__ = .
+                0x20000018                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000018       0x38 ..\obj\timers.o
+ .bss           0x20000050      0x100 ..\obj\tasks.o
+                0x20000050                pxCurrentTCB
+ .bss           0x20000150        0x8 ..\obj\port.o
+ .bss           0x20000158    0x12c08 ..\obj\heap_1.o
+ *(COMMON)
+ COMMON         0x20012d60       0x40 ..\obj\queue.o
+                0x20012d60                xQueueRegistry
+                0x20012da0                . = ALIGN (0x4)
+                0x20012da0                __bss_end__ = .
+                0x20012da0                _ebss = __bss_end__
+
+.heap           0x20012da0        0x0
+                0x20012da0                __end__ = .
+                0x20012da0                _end = __end__
+                0x20012da0                end = __end__
+ *(.heap*)
+                0x20012da0                __HeapLimit = .
+
+.co_stack       0x20012da0      0x800 load address 0x08015ccc
+                0x20012da0                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20012da0      0x800 ..\obj\startup_stm32f4xx.o
+                0x20012da0                pulStack
+                0x20020000                __StackTop = (ORIGIN (ram) + 0x20000)
+                0x2001f800                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20020000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\main.o
+LOAD ..\obj\stm32f4xx_rcc.o
+LOAD ..\obj\timers.o
+LOAD ..\obj\tasks.o
+LOAD ..\obj\stm32f4xx_gpio.o
+LOAD ..\obj\stm32f4xx_flash.o
+LOAD ..\obj\list.o
+LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\port.o
+LOAD ..\obj\queue.o
+LOAD ..\obj\croutine.o
+LOAD ..\obj\event_groups.o
+LOAD ..\obj\heap_1.o
+LOAD ..\obj\clock.o
+START GROUP
+LOAD c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a
+LOAD c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a
+LOAD c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a
+END GROUP
+OUTPUT(freertos-led.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x6700
+ .debug_info    0x00000000       0xed ..\obj\startup_stm32f4xx.o
+ .debug_info    0x000000ed      0x352 ..\obj\main.o
+ .debug_info    0x0000043f      0xc4d ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x0000108c      0xa05 ..\obj\timers.o
+ .debug_info    0x00001a91     0x1cb7 ..\obj\tasks.o
+ .debug_info    0x00003748      0x602 ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x00003d4a      0x71b ..\obj\stm32f4xx_flash.o
+ .debug_info    0x00004465      0x299 ..\obj\list.o
+ .debug_info    0x000046fe      0x592 ..\obj\system_stm32f4xx.o
+ .debug_info    0x00004c90      0x520 ..\obj\port.o
+ .debug_info    0x000051b0     0x1264 ..\obj\queue.o
+ .debug_info    0x00006414      0x1b4 ..\obj\heap_1.o
+ .debug_info    0x000065c8      0x138 ..\obj\clock.o
+
+.debug_abbrev   0x00000000     0x12eb
+ .debug_abbrev  0x00000000       0xb0 ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x000000b0      0x12f ..\obj\main.o
+ .debug_abbrev  0x000001df      0x1e3 ..\obj\stm32f4xx_rcc.o
+ .debug_abbrev  0x000003c2      0x1da ..\obj\timers.o
+ .debug_abbrev  0x0000059c      0x27c ..\obj\tasks.o
+ .debug_abbrev  0x00000818      0x1a3 ..\obj\stm32f4xx_gpio.o
+ .debug_abbrev  0x000009bb      0x1ae ..\obj\stm32f4xx_flash.o
+ .debug_abbrev  0x00000b69       0xbc ..\obj\list.o
+ .debug_abbrev  0x00000c25      0x136 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x00000d5b      0x1bb ..\obj\port.o
+ .debug_abbrev  0x00000f16      0x206 ..\obj\queue.o
+ .debug_abbrev  0x0000111c      0x12b ..\obj\heap_1.o
+ .debug_abbrev  0x00001247       0xa4 ..\obj\clock.o
+
+.debug_aranges  0x00000000      0x818
+ .debug_aranges
+                0x00000000       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000028       0x48 ..\obj\main.o
+ .debug_aranges
+                0x00000070      0x178 ..\obj\stm32f4xx_rcc.o
+ .debug_aranges
+                0x000001e8       0x98 ..\obj\timers.o
+ .debug_aranges
+                0x00000280      0x1c0 ..\obj\tasks.o
+ .debug_aranges
+                0x00000440       0x88 ..\obj\stm32f4xx_gpio.o
+ .debug_aranges
+                0x000004c8      0x108 ..\obj\stm32f4xx_flash.o
+ .debug_aranges
+                0x000005d0       0x40 ..\obj\list.o
+ .debug_aranges
+                0x00000610       0x30 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000640       0x80 ..\obj\port.o
+ .debug_aranges
+                0x000006c0      0x100 ..\obj\queue.o
+ .debug_aranges
+                0x000007c0       0x38 ..\obj\heap_1.o
+ .debug_aranges
+                0x000007f8       0x20 ..\obj\clock.o
+
+.debug_ranges   0x00000000      0x748
+ .debug_ranges  0x00000000       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000018       0x38 ..\obj\main.o
+ .debug_ranges  0x00000050      0x168 ..\obj\stm32f4xx_rcc.o
+ .debug_ranges  0x000001b8       0x88 ..\obj\timers.o
+ .debug_ranges  0x00000240      0x1b0 ..\obj\tasks.o
+ .debug_ranges  0x000003f0       0x78 ..\obj\stm32f4xx_gpio.o
+ .debug_ranges  0x00000468       0xf8 ..\obj\stm32f4xx_flash.o
+ .debug_ranges  0x00000560       0x30 ..\obj\list.o
+ .debug_ranges  0x00000590       0x20 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x000005b0       0x70 ..\obj\port.o
+ .debug_ranges  0x00000620       0xf0 ..\obj\queue.o
+ .debug_ranges  0x00000710       0x28 ..\obj\heap_1.o
+ .debug_ranges  0x00000738       0x10 ..\obj\clock.o
+
+.debug_line     0x00000000     0x3781
+ .debug_line    0x00000000       0x9a ..\obj\startup_stm32f4xx.o
+ .debug_line    0x0000009a      0x2b0 ..\obj\main.o
+ .debug_line    0x0000034a      0x584 ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x000008ce      0x486 ..\obj\timers.o
+ .debug_line    0x00000d54      0xd99 ..\obj\tasks.o
+ .debug_line    0x00001aed      0x326 ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x00001e13      0x46a ..\obj\stm32f4xx_flash.o
+ .debug_line    0x0000227d      0x219 ..\obj\list.o
+ .debug_line    0x00002496      0x1e2 ..\obj\system_stm32f4xx.o
+ .debug_line    0x00002678      0x363 ..\obj\port.o
+ .debug_line    0x000029db      0x9d3 ..\obj\queue.o
+ .debug_line    0x000033ae      0x23e ..\obj\heap_1.o
+ .debug_line    0x000035ec      0x195 ..\obj\clock.o
+
+.debug_str      0x00000000     0x2a0d
+ .debug_str     0x00000000      0x152 ..\obj\startup_stm32f4xx.o
+                                0x164 (size before relaxing)
+ .debug_str     0x00000152      0x296 ..\obj\main.o
+                                0x393 (size before relaxing)
+ .debug_str     0x000003e8      0x6a7 ..\obj\stm32f4xx_rcc.o
+                                0x86d (size before relaxing)
+ .debug_str     0x00000a8f      0x4d4 ..\obj\timers.o
+                                0x6a4 (size before relaxing)
+ .debug_str     0x00000f63      0xc21 ..\obj\tasks.o
+                                0xeda (size before relaxing)
+ .debug_str     0x00001b84      0x18b ..\obj\stm32f4xx_gpio.o
+                                0x4c0 (size before relaxing)
+ .debug_str     0x00001d0f      0x3c3 ..\obj\stm32f4xx_flash.o
+                                0x5af (size before relaxing)
+ .debug_str     0x000020d2       0xbd ..\obj\list.o
+                                0x2b6 (size before relaxing)
+ .debug_str     0x0000218f       0xf4 ..\obj\system_stm32f4xx.o
+                                0x3c7 (size before relaxing)
+ .debug_str     0x00002283      0x206 ..\obj\port.o
+                                0x419 (size before relaxing)
+ .debug_str     0x00002489      0x484 ..\obj\queue.o
+                                0x7de (size before relaxing)
+ .debug_str     0x0000290d       0xb5 ..\obj\heap_1.o
+                                0x23d (size before relaxing)
+ .debug_str     0x000029c2       0x4b ..\obj\clock.o
+                                0x1ed (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\startup_stm32f4xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_rcc.o
+ .comment       0x00000000       0x71 ..\obj\timers.o
+ .comment       0x00000000       0x71 ..\obj\tasks.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_gpio.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_flash.o
+ .comment       0x00000000       0x71 ..\obj\list.o
+ .comment       0x00000000       0x71 ..\obj\system_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\port.o
+ .comment       0x00000000       0x71 ..\obj\queue.o
+ .comment       0x00000000       0x71 ..\obj\heap_1.o
+ .comment       0x00000000       0x71 ..\obj\clock.o
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x37 ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000037       0x37 ..\obj\main.o
+ .ARM.attributes
+                0x0000006e       0x37 ..\obj\stm32f4xx_rcc.o
+ .ARM.attributes
+                0x000000a5       0x37 ..\obj\timers.o
+ .ARM.attributes
+                0x000000dc       0x37 ..\obj\tasks.o
+ .ARM.attributes
+                0x00000113       0x37 ..\obj\stm32f4xx_gpio.o
+ .ARM.attributes
+                0x0000014a       0x37 ..\obj\stm32f4xx_flash.o
+ .ARM.attributes
+                0x00000181       0x37 ..\obj\list.o
+ .ARM.attributes
+                0x000001b8       0x37 ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x000001ef       0x37 ..\obj\port.o
+ .ARM.attributes
+                0x00000226       0x37 ..\obj\queue.o
+ .ARM.attributes
+                0x0000025d       0x37 ..\obj\heap_1.o
+ .ARM.attributes
+                0x00000294       0x37 ..\obj\clock.o
+ .ARM.attributes
+                0x000002cb       0x20 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000002eb       0x32 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
+
+.debug_frame    0x00000000     0x20c0
+ .debug_frame   0x00000000       0x4c ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x0000004c       0xd8 ..\obj\main.o
+ .debug_frame   0x00000124      0x6d4 ..\obj\stm32f4xx_rcc.o
+ .debug_frame   0x000007f8      0x25c ..\obj\timers.o
+ .debug_frame   0x00000a54      0x7a4 ..\obj\tasks.o
+ .debug_frame   0x000011f8      0x23c ..\obj\stm32f4xx_gpio.o
+ .debug_frame   0x00001434      0x44c ..\obj\stm32f4xx_flash.o
+ .debug_frame   0x00001880       0xd8 ..\obj\list.o
+ .debug_frame   0x00001958       0x7c ..\obj\system_stm32f4xx.o
+ .debug_frame   0x000019d4      0x19c ..\obj\port.o
+ .debug_frame   0x00001b70      0x44c ..\obj\queue.o
+ .debug_frame   0x00001fbc       0x9c ..\obj\heap_1.o
+ .debug_frame   0x00002058       0x34 ..\obj\clock.o
+ .debug_frame   0x0000208c       0x34 c:/program files/gnu tools arm embedded/4.9 2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg.a(lib_a-memset.o)
